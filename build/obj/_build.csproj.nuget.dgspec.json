@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\one\\src\\one\\one.csproj": {}
+    "C:\\git\\one\\build\\_build.csproj": {}
   },
   "projects": {
-    "C:\\git\\one\\src\\one\\one.csproj": {
+    "C:\\git\\one\\build\\_build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\one\\src\\one\\one.csproj",
-        "projectName": "one",
-        "projectPath": "C:\\git\\one\\src\\one\\one.csproj",
+        "projectUniqueName": "C:\\git\\one\\build\\_build.csproj",
+        "projectName": "_build",
+        "projectPath": "C:\\git\\one\\build\\_build.csproj",
         "packagesPath": "C:\\Users\\maske\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\one\\src\\one\\obj\\",
+        "outputPath": "C:\\git\\one\\build\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.0": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,23 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "GitVersion.CommandLine.DotNetCore": {
+              "target": "Package",
+              "version": "[4.0.1-beta1-49, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            },
+            "Nuke.Common": {
+              "target": "Package",
+              "version": "[0.21.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -49,15 +65,7 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          }
+          "warn": true
         }
       }
     }
