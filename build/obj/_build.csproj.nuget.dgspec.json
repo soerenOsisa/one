@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\git\\one\\src\\one\\one.csproj": {}
+    "C:\\git\\one\\build\\_build.csproj": {}
   },
   "projects": {
-    "C:\\git\\one\\src\\one\\one.csproj": {
+    "C:\\git\\one\\build\\_build.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\git\\one\\src\\one\\one.csproj",
-        "projectName": "one",
-        "projectPath": "C:\\git\\one\\src\\one\\one.csproj",
+        "projectUniqueName": "C:\\git\\one\\build\\_build.csproj",
+        "projectName": "_build",
+        "projectPath": "C:\\git\\one\\build\\_build.csproj",
         "packagesPath": "C:\\Users\\maske\\.nuget\\packages\\",
-        "outputPath": "C:\\git\\one\\src\\one\\obj\\",
+        "outputPath": "C:\\git\\one\\build\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netcoreapp2.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netcoreapp2.0": {
             "projectReferences": {}
           }
         },
@@ -39,25 +39,21 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
+        "netcoreapp2.0": {
           "dependencies": {
-            "Microsoft.AspNetCore.Blazor": {
+            "GitVersion.CommandLine.DotNetCore": {
               "target": "Package",
-              "version": "[3.0.0-preview7.19365.7, )"
+              "version": "[4.0.1-beta1-49, )"
             },
-            "Microsoft.AspNetCore.Blazor.Build": {
-              "target": "Package",
-              "version": "[3.0.0-preview7.19365.7, )"
-            },
-            "Microsoft.AspNetCore.Blazor.DevServer": {
-              "target": "Package",
-              "version": "[3.0.0-preview7.19365.7, )"
-            },
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.3, )",
+              "version": "[2.0.0, )",
               "autoReferenced": true
+            },
+            "Nuke.Common": {
+              "target": "Package",
+              "version": "[0.21.2, )"
             }
           },
           "imports": [
