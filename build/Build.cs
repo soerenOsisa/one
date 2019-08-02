@@ -69,6 +69,7 @@ class Build : NukeBuild
         .Executes(() =>
         {
             DotNetPublish(s => s
+                .SetOutput(ArtifactsDirectory)
                 .SetConfiguration(Configuration)
                 );
         });
