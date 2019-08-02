@@ -1,6 +1,6 @@
 name: $(TeamProject)_$(BuildDefinitionName)_$(SourceBranchName)_$(Date:yy).$(Date:MMdd)$(Rev:.r)
 variables:
-  SolutionFile: ../one.sln
+  SolutionFile: ./one.sln
   BuildConfiguration: Release
   VersionPrefix: '0'
   BuildYear: $[format('{0:yy}', pipeline.startTime)]
