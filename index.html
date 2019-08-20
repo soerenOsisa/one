@@ -19,12 +19,11 @@
   </script>
   <script>
     function loadPage() {
-      startTime = new Date().getTime();
-      if (new Date().getTime() - startTime < 3000) {
+      var startTime = new Date().getSeconds();
+      while (new Date().getSeconds() - startTime < 3) {
         document.write('<link rel="stylesheet" href="style_load.css">')
-      } else {
-        document.write('<link rel="stylesheet" href="style_logo.css">')
       }
+      document.write('<link rel="stylesheet" href="style_logo.css">')
     }
     loadPage();
   </script>
