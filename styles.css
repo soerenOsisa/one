@@ -16,15 +16,15 @@ aside {
   animation: hideshow 3s ease;
 }
 img {
-  position: absolute;
-  top: 31%;
+  position: relative;
+  top: 1%;
   left: 5%;
   width: 90%;
-  height: 60%;
+  height: 90%;
 }
 .button {
-  position: absolute;
-  top: 60%;
+  position: relative;
+  top: 1%;
   left: 5%;
   width: 90%;
   height: 100%;
