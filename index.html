@@ -3,7 +3,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
-  <link rel="stylesheet" href="styles.css">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="apple-mobile-web-app-title" content="Maske one">
   <meta name="application-name" content="Maske one">
@@ -18,6 +17,18 @@
     gtag('js', new Date());
     gtag('config', 'UA-145492068-1');
   </script>
+  <script>
+    function loadPage() {
+      var startTime = new Date.getTime();
+      if (new Date.getTime() - startTime < 3000) {
+        document.write('<link rel="stylesheet" href="style_load.css">')
+      } else {
+        document.write('<link rel="stylesheet" href="style_logo.css">')
+      }
+    }
+    loadPage();
+  </script>
+  <noscript><link rel="stylesheet" href="style_load.css"></noscript>
 </head>
 <body>
   <aside class='sidebar'>
