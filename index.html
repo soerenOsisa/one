@@ -20,8 +20,8 @@
   <script>
     function loadPage() {
       startTime = new Date().getSeconds();
+      document.write('<link rel="stylesheet" href="style_load.css">')
       while (new Date().getSeconds() - startTime < 3) {
-        document.write('<link rel="stylesheet" href="style_load.css">')
       }
       document.write('<link rel="stylesheet" href="style_logo.css">')
     }
