@@ -20,5 +20,12 @@ img {
   top: 31%;
   left: 5%;
   width: 90%;
-  height: 69%;
+  height: 60%;
+}
+button {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  width: 90%;
+  height: 100%;
 }
