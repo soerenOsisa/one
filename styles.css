@@ -1,12 +1,9 @@
 aside {
   width: 25%;
-  min-width: 250px;
-  max-width: 500px;
-  margin: 25px auto;
 }
 .logo-wrap {
   height: 0;
-  padding-top: 10%;
+  padding-top: 42%;
   position: relative;
 }
 .logo {
@@ -22,5 +19,5 @@ aside {
   100% { opacity: 0; }
 }
 .logo {
-  animation: hideshow 3s ease infinite;
+  animation: hideshow 7s ease infinite;
 }
