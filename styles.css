@@ -1,26 +1,17 @@
 aside {
-  margin: 100%;
+  margin-top: 31%;
 }
 .logo {
   position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  height: 50%;
+  top: 1%;
+  left: 35%;
+  width: 30%;
+  height: 30%;
 }
 @keyframes hideshow {
   0% { opacity: 0; }
-  50% { opacity: 1; }
-  100% { opacity: 0; }
-}
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
+  100% { opacity: 1; }
 }
 .logo {
-  animation: hideshow 3s ease infinite, rotation 1s ease  infinite;
+  animation: hideshow 3s ease;
 }
