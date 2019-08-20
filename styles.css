@@ -1,0 +1,6 @@
+@keyframes hideshow {
+  50% { opacity: 0; }
+}
+.logo {
+  animation: hideshow 10s ease infinite;
+}
