@@ -16,8 +16,9 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-145492068-1');
+    var startTime = new Date().getSeconds();
     document.write('<link rel="stylesheet" href="style_load.css">');
-    setTimeout(function(){ }, 3000);
+    while ( new Date().getSeconds() - startTime < 3) { }
     document.write('<link rel="stylesheet" href="style_logo.css">');
   </script>
   <noscript><link rel="stylesheet" href="style_logo.css"></noscript>
