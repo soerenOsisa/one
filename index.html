@@ -18,8 +18,8 @@
     gtag('js', new Date());
     gtag('config', 'UA-145492068-1');
     
-    document.write('<link rel="stylesheet" href="style_load.css">');
-    setTimeout(function(){document.querySelector("head > link:nth-child(14)").replace('<link rel="stylesheet" href="styles.css">');}, 3000);
+    setTimeout(function(){document.write('<link rel="stylesheet" href="style_load.css">');}, 3000);
+    document.querySelector("head > link:nth-child(14)").replace('<link rel="stylesheet" href="styles.css">');
   </script>
   <noscript><link rel="stylesheet" href="styles.css"></noscript>
 </head>
