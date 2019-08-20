@@ -15,3 +15,10 @@ aside {
 .logo {
   animation: hideshow 3s ease;
 }
+.plan {
+  position: absolute;
+  top: 1%;
+  left: 35%;
+  width: 30%;
+  height: 30%;
+}
