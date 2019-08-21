@@ -25,18 +25,14 @@ aside {
   animation: hideshow 3s ease infinite, rotation 1s ease  infinite;
 }
 .plan {
-  width: 0px;
-  height: 0px;
+  display: none;
 }
 img {
-  width: 0px;
-  height: 0px;
+  display: none;
 }
 .button {
-  width: 0px;
-  height: 0px;
+  display: none;
 }
 button {
-  width: 0px;
-  height: 0px;
+  display: none;
 }
