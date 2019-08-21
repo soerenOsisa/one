@@ -1,8 +1,9 @@
 aside {
   margin-top: 31%;
+  position: absolute;
 }
 .logo {
-  position: relative;
+  position: absolute;
   top: 1%;
   left: 35%;
   width: 30%;
@@ -17,12 +18,14 @@ aside {
 }
 .plan {
   position: relative;
+  top: 5%;
   left: 5%;
   width: 90%;
   height: 90%;
 }
 .nrj {
   position: relative;
+  top: 5%;
   left: 5%;
   width: 90%;
   height: 10%;
