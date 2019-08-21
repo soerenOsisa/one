@@ -10,7 +10,7 @@
   100% { opacity: 1; }
 }
 .logo {
-  animation: hideshow 3s ease;
+  animation: hideshow 7s ease;
 }
 .plan {
   position: relative;
