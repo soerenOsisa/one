@@ -1,6 +1,5 @@
 aside {
   margin-top: 31%;
-  margin-bottom: 1%;
 }
 .logo {
   position: absolute;
@@ -15,6 +14,9 @@ aside {
 }
 .logo {
   animation: hideshow 3s ease;
+}
+body {
+  margin-top: 32%;
 }
 .plan {
   position: relative;
