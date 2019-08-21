@@ -15,14 +15,14 @@ aside {
 .logo {
   animation: hideshow 3s ease;
 }
-img {
+.plan {
   position: relative;
   top: 1%;
   left: 5%;
   width: 90%;
   height: 90%;
 }
-.button {
+.nrj {
   position: relative;
   top: 1%;
   left: 5%;
