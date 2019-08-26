@@ -19,7 +19,8 @@
     gtag('config', 'UA-145492068-1');
     
     document.write('<link rel="stylesheet" href="style_load.css">');
-    setTimeout(function(){document.querySelector("head > link:nth-child(14)").outerHTML='<link rel="stylesheet" href="styles.css">';}, 3000);
+    while document.load() {}
+    function(){document.querySelector("head > link:nth-child(14)").outerHTML='<link rel="stylesheet" href="styles.css">';};
   </script>
   <noscript><link rel="stylesheet" href="styles.css"></noscript>
 </head>
